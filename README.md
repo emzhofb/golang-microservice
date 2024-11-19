@@ -1,12 +1,21 @@
 # golang-microservice
 
+run every services
 ```
-// run every services
 make up_build
-// run frontend
+```
+run frontend
+
+```
 make start
-// stop frontend
-make down
-// stop services
+```
+
+stop frontend
+```
+make stop
+```
+
+stop services
+```
 make down
 ```
