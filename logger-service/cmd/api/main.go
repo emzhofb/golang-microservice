@@ -55,6 +55,8 @@ func main() {
 	err = rpc.Register(new(RPCServer))
 	go app.rpcListen()
 
+	go app.gRPCListen()
+
 	// start web server
 	log.Println("logger-service run on port:", webPort)
 
